@@ -8,6 +8,7 @@
             public string Description { get; set; }
 
             // Additional properties or methods specific to the Actor class can be added here
-        
+            
+            public List<Movie> Movies { get; set; }
     }
 }
